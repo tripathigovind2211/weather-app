@@ -1,12 +1,12 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Cloud, MapPin, Thermometer } from 'lucide-react';
-import { SearchBar } from './components/SearchBar';
-import { CurrentWeather } from './components/CurrentWeather';
-import { Forecast } from './components/Forecast';
-import { AirQuality } from './components/AirQuality';
-import { LoadingSpinner } from './components/LoadingSpinner';
-import { ErrorDisplay } from './components/ErrorDisplay';
+import { SearchBar } from './Components/SearchBar';
+import { CurrentWeather } from './Components/CurrentWeather';
+import { Forecast } from './Components/Forecast';
+import { AirQuality } from './Components/AirQuality';
+import { LoadingSpinner } from './Components/LoadingSpinner';
+import { ErrorDisplay } from './Components/ErrorDisplay';
 import { useWeatherData } from './hooks/useWeatherData';
 
 function App() {
